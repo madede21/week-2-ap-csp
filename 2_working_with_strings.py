@@ -39,24 +39,24 @@
 # # # ----------------------------------------
 # # 3. Indexing and Slicing
 # # ----------------------------------------
-name5 = "Johnson"
+# name5 = "Johnson"
 
-# print the first letter of the mayors name
-print ("First letter of mayor's name:", name5[0])
-print ("Last letter of mayors name:", name5[-1])
+# # print the first letter of the mayors name
+# print ("First letter of mayor's name:", name5[0])
+# print ("Last letter of mayors name:", name5[-1])
 
-# get john
-print ("the first letter of mayors name:", name5[0:4])
+# # get john
+# print ("the first letter of mayors name:", name5[0:4])
 
-last_name = "marquez"
-print ("last three digits of name:" , last_name [-3:]) 
+# last_name = "marquez"
+# print ("last three digits of name:" , last_name [-3:]) 
 
 
 
-poppins =   "supercalifragilisticexpialidocious"
-print(len(poppins))
+# poppins =   "supercalifragilisticexpialidocious"
+# print(len(poppins))
 
-print ("last few leters of name :" , poppins [-7:]  )  
+# print ("last few leters of name :" , poppins [-7:]  )  
 
 
 
@@ -90,11 +90,18 @@ print ("last few leters of name :" , poppins [-7:]  )
 # # String Methods
 # # ----------------------------------------
 
-# sentence = "Python is fun to learn"
+sentence = "Python is fun to learn"
 
-# # .split(): Splits the string into a list of words
-# words = sentence.split()
-# print("Split result:", words)
+# .split(): Splits the string into a list of words
+words = sentence.split()
+print("Split result:", words)
+words2 = sentence.join("")
+print(words2)
+
+
+
+
+
 
 # # .format(): Allows inserting values into strings using {}
 # name = "Marvin"
