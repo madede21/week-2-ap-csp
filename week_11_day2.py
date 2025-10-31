@@ -16,22 +16,24 @@ favorite_number = 7
 
 #  Step 2: Practice String Operations
 # 1. Print your name in uppercase
-
-
+name5 = "mateo marquez"
+print ("name in upper case:" , name5.upper ())
 # 2. Print how many letters are in your name
 
-
+print ("number of letters in ur name:" , len(name5))
 # 3. Combine your name and favorite color into one message
-
-
+favorite_color = "pink"
+print (f" {name5} favorite color is {favorite_color}")
 #  Step 3: Math Practice
 # Use arithmetic operators with your favorite number
-
+print (5 * 5)
 
 #  Step 4: User Input Practice
 # Ask the user two questions and combine answers
 
-
+color = input("What is your favorite color? ")
+food = input("What is your favorite food? ")
+print(f" i like {color} and enjoy eating {food}.")
 
 
 # ⚙️ Step 5: Final Challenge (combine it all)
