@@ -17,3 +17,14 @@
 # Well, try to do it on your own, and if it gets complicated, don’t worry, we will solve it together in the next lecture.
 
 # Cheers and good luck.
+
+print ("hello welcome to beer name generator")
+
+flavor = input("whats your favorite flavor or ingrediant?")
+vibe = input("whats a word that describes our vibe or personality ")
+
+beer_name = (f"{flavor} {vibe}")
+
+print("\nYour new beer brand could be called:")
+print(f"\"{beer_name}\"")
+

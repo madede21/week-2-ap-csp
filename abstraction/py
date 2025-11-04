@@ -1,3 +1,10 @@
+q
+
+
+
+
+
+
 q1 = int(input("what year is it now?"))
 q2 = int(input("what year were you born"))
 answer = q1 - q2

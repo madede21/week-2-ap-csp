@@ -1,4 +1,5 @@
 # open up the vscode from previous day
+# open up the vscode from previous day
 # create a new file called: week11_day1.py
 # ----------------------------------------
 # Day 2 Review Activity: My Personal Info Generator
@@ -9,34 +10,38 @@ print("You’ll review variables, strings, numbers, and print formatting.\n")
 
 # Step 1: Create Variables
 # TODO: Replace the values below with your own info
-first_name = "Marvin"
+first_name = "Alexandre"
 age = 30
-favorite_color = "Blue"
-favorite_number = 7
+favorite_color = "Green"
+favorite_number = 67
 
 #  Step 2: Practice String Operations
 # 1. Print your name in uppercase
-name5 = "mateo marquez"
-print ("name in upper case:" , name5.upper ())
+
+print(first_name.upper())
+
 # 2. Print how many letters are in your name
 
-print ("number of letters in ur name:" , len(name5))
+print(len(first_name), "letters in your name")
+
 # 3. Combine your name and favorite color into one message
-favorite_color = "pink"
-print (f" {name5} favorite color is {favorite_color}")
+
+print(first_name, favorite_color)
+
 #  Step 3: Math Practice
 # Use arithmetic operators with your favorite number
-print (5 * 5)
+
+print(int(favorite_number + age))
+print(int(favorite_number - age))
+print(int(favorite_number * age))
+print(float(favorite_number / age))
 
 #  Step 4: User Input Practice
 # Ask the user two questions and combine answers
 
-color = input("What is your favorite color? ")
-food = input("What is your favorite food? ")
-print(f" i like {color} and enjoy eating {food}.")
+lastName = (input("what is your last name?"))
 
+print(input("what is your last name?"))
 
 # ⚙️ Step 5: Final Challenge (combine it all)
 # Use math and strings together
-
-
