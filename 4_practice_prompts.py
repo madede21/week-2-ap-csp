@@ -141,54 +141,56 @@ print("Name: Alexandre 15")
 #name and then define it with a value
 
 
-#challenge
-# find a summary of the movie blue beetle online and create a 
-# variable called blue_beetle_summary and print it it out to the screen
+# Movie Summary Challenge
 blue_beetle_summary = "Jaime Reyes suddenly finds himself in possession of an ancient relic of alien biotechnology called the Scarab. When the Scarab chooses Jaime to be its symbiotic host, he's bestowed with an incredible suit of armor that's capable of extraordinary and unpredictable powers, forever changing his destiny as he becomes the superhero Blue Beetle."
-# print the length of the summary
+
+# Print the length of the summary
 print(len(blue_beetle_summary))
-# upper case the entire summary
+
+# Uppercase the entire summary
 print("Uppercase:", blue_beetle_summary.upper())
-# print the summary
+
+# Print the summary
 print(blue_beetle_summary)
-# print the summary in lowercase
+
+# Print the summary in lowercase
 print("Lowercase:", blue_beetle_summary.lower())
-# replace the word blue with red
+
+# Replace the word Blue with Red
 new_beetle_summary = blue_beetle_summary.replace('Blue', 'Red')
-# print the summary
 print(new_beetle_summary)
-# string index the word beetle and print it out
-print("First character:", blue_beetle_summary[0])  # Output: J
+
+# String index practice
+print("First character:", blue_beetle_summary[0])
 print("Last character:", blue_beetle_summary[-1])
-# print the last word of the summary
-last_word = blue_beetle_summary[-1]
-# print the summary in reverse
+
+# Print the last word of the summary
+last_word = blue_beetle_summary.split()[-1]
+print("Last word:", last_word)
+
+# Print the summary in reverse
 reversed_beetle_summary = blue_beetle_summary[::-1]
 print(reversed_beetle_summary)
-##########################input practice#############################################
-#input is when we ask the user for input/data
-# Ask the user to enter their name.
+
+########################## Input Practice #############################################
 
 # Input Practice #1
-# Write Python code that allows the user to enter their answer, by making them the following question:
-# What are you learning today?
-# Your code must be able to print to the screen whatever is entered by the user (use the print function).
+learning = input("What are you learning today? ")
+print("You are learning:", learning)
 
 # Input Practice #2
-# Write Python code that allows the user to enter their answer, by making them the following question:
-# Where are you from?
-# Your code must be able to print to the screen whatever is entered by the user (use the print function).
+place = input("Where are you from? ")
+print("You are from:", place)
 
 # Input Practice #3
-# Write Python code that displays the user's full name on the screen, by allowing them to enter their first and last name with the following instructions:
-# What is your name?
-# What is your surname?
-# The code must be able to print the user's first and last name on the screen, separated by a space.
+first_name = input("What is your name? ")
+surname = input("What is your surname? ")
+print("Your full name is:", first_name, surname)
 
-# Exercise:
-# Write a program that asks the user for their name and favorite color, then prints a message using both pieces of information.
-
-
+# Exercise
+name = input("What is your name? ")
+fav_color = input("What is your favorite color? ")
+print("Hello", name + "!", "Your favorite color is", fav_color + ".")
 
 
 
